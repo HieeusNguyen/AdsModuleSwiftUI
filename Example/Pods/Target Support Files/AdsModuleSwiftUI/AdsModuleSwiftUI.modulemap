@@ -1,0 +1,6 @@
+framework module AdsModuleSwiftUI {
+  umbrella header "AdsModuleSwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

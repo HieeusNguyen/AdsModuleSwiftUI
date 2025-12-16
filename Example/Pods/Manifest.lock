@@ -1,0 +1,16 @@
+PODS:
+  - AdsModuleSwiftUI (0.1.0)
+
+DEPENDENCIES:
+  - AdsModuleSwiftUI (from `../`)
+
+EXTERNAL SOURCES:
+  AdsModuleSwiftUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AdsModuleSwiftUI: 95bd91366bf2dafbeadeaac7961e75c00704f2a5
+
+PODFILE CHECKSUM: a31dc3b2732a30a45b77ee705c84f775867a27ae
+
+COCOAPODS: 1.16.2

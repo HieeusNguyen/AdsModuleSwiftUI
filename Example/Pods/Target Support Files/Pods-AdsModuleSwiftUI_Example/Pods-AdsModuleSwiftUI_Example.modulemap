@@ -1,0 +1,6 @@
+framework module Pods_AdsModuleSwiftUI_Example {
+  umbrella header "Pods-AdsModuleSwiftUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
