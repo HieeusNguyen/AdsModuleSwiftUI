@@ -8,8 +8,8 @@
 
 import SwiftUI
 
-struct AdsModule: View {
-    var body: some View {
+public struct AdsModule: View {
+    public var body: some View {
         Text("Hello from AdsModule")
     }
 }
