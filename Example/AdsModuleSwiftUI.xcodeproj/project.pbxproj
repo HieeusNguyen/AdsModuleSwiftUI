@@ -33,7 +33,7 @@
 		1DC214E32501627FDA0707A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		266DB8D7E8B918670251AED7 /* Pods-AdsModuleSwiftUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdsModuleSwiftUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-AdsModuleSwiftUI_Example/Pods-AdsModuleSwiftUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		46D5E1D2949D1175188E3105 /* Pods_AdsModuleSwiftUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdsModuleSwiftUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51728D1D6769657DA8F338BF /* AdsModuleSwiftUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdsModuleSwiftUI.podspec; path = ../AdsModuleSwiftUI.podspec; sourceTree = "<group>"; };
+		51728D1D6769657DA8F338BF /* AdsModuleSwiftUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdsModuleSwiftUI.podspec; path = ../AdsModuleSwiftUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		55E4EEFFB76943D403F510CD /* Pods-AdsModuleSwiftUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdsModuleSwiftUI_Example.release.xcconfig"; path = "Target Support Files/Pods-AdsModuleSwiftUI_Example/Pods-AdsModuleSwiftUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AdsModuleSwiftUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdsModuleSwiftUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				CCC2B5BF2EF1B01D001F508A /* AdsModule.swift */,
+				CCC2B5E42EF1B359001F508A /* Sources */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for AdsModuleSwiftUI */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -160,6 +160,14 @@
 				6D9133927A7E094CE5E5C880 /* Pods-AdsModuleSwiftUI_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CCC2B5E42EF1B359001F508A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2B5BF2EF1B01D001F508A /* AdsModule.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
